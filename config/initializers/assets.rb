@@ -14,9 +14,10 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'js')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'css')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'css')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons', 'ultm-bg-images')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons', 'ultm-css')
 
-Rails.application.config.assets.precompile += %w( *.jpg *png *gif)
+Rails.application.config.assets.precompile += %w( *.jpg *png *gif *eot *woff *svg *ttf)
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
